@@ -1,0 +1,93 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    min-height: 100vh;
+    background: url("../assets/images/Background_Intro.png") no-repeat center/cover;
+
+    padding-block: 116px 60px;
+}
+
+.profile {
+    position: relative;
+    width: 96px;
+    height: 96px;
+
+    background-color: var(--gray-200);
+    border: 2px solid var(--red-color);
+    border-radius: 50%;
+
+    padding: 4px;
+
+    .photo {
+        width: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    img:nth-child(2){
+        position: absolute;
+        bottom: -10px;
+        left: 60px;
+    }
+}
+
+.apresentation {
+    max-width: 680px;
+    margin: 56px auto 80px;
+
+    span {
+        color: var(--gray-500);
+        font: var(--subtitle);
+
+        strong {
+            color: var(--red-color);
+        }
+    }
+
+    h1 {
+        color: var(--gray-600);
+        font: var(--title-lg);
+        margin-block: 8px 20px;
+    }
+
+    p {
+        color: var(--gray-400)
+    }
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 98px;
+    padding-inline: 20px;
+    
+    li {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        
+        background-color: var(--gray-300);
+        border-radius: 80px;
+        color: var(--gray-500);
+        font: var(--text-md);
+        padding: 8px 16px;
+        
+        &:hover{
+        scale: 1.1;
+        filter:  brightness(1.3);
+        transition: scale 0.6s ease-in-out, filter 0.4s ease-in-out;
+        }   
+    }
+
+}
+a {
+    &:hover {
+        scale: 1.2;
+        transition: scale 0.2s ease-in-out;
+    }
+}
