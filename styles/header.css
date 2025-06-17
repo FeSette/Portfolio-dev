@@ -85,7 +85,8 @@
     }
 
 }
-a {
+
+.scroll{
     &:hover {
         scale: 1.2;
         transition: scale 0.2s ease-in-out;
