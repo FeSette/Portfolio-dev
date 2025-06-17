@@ -1,0 +1,13 @@
+.max-width {
+    max-width: 1440px;
+    margin-inline: auto;
+    padding-inline: 120px;
+}
+
+.subtitle {
+    font: var(--subtitle);
+}
+
+.title-md {
+    font: var(--title-md);
+}

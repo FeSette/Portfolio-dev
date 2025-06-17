@@ -30,7 +30,7 @@
     --text-sm: 400 14px/140% var(--maven-pro);
 }
 
-body {
+html, body {
     width: 100%;
     min-height: 100vh;
     height: auto;
@@ -38,6 +38,8 @@ body {
     background-color: var(--gray-200);
     color: var(--gray-500);
     font: var(--text-md);
+
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -58,6 +60,11 @@ a {
     color: inherit;
 }
 
+p {
+    font: var(--text-sm);
+}
+
 img{
     object-fit: cover;
+    vertical-align: top;
 }
