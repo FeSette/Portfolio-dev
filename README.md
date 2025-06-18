@@ -8,7 +8,7 @@
 
 O site desenvolvido é um portfólio para desenvolvedores, com o intuito de mostrar os projetos desenvolvidos e o contato profissional.
 
-[🔗 Clique aqui para acessar o projeto](fesette.github.io/Portfolio-dev/)
+[🔗 Veja o projeto](fesette.github.io/Portfolio-dev/)
 
 ## 🛠️ Tecnologias
 
